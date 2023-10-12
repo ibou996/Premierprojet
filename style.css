@@ -1,0 +1,418 @@
+/* Partie header
+.logopage {
+    font-size: 30px;
+    margin: auto;   
+}
+.logopage img {
+    width: 40px;
+    height: 30px;  
+}
+strong {
+    color:  hsl(171, 79%, 39%);
+}
+
+ li{
+    display: inline-block;
+}
+ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+nav a {
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+ */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+ }
+ .link{
+    margin-top: 20PX;
+    gap: 20px;
+ }
+  .link a{
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 15px;
+    color: gray;
+    font-size: 18px;
+  }
+  .link a:hover {
+    background-color: white;
+    color: #00ccb1;
+  }
+strong {
+    font-weight: normal;
+    color: #00B39B;
+}
+  
+
+
+/* Partie main */
+
+
+/* SECTION 1 */
+
+#main {
+    text-align: center; 
+}
+.pmain h1 {
+    color: #00ccb1;
+    font-family: serif;
+}
+#main img {
+    width: 40px;
+    height: 40px;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-align: justify; 
+    height: 100px;
+
+}
+.para p{
+    height: 100px;
+}
+.pmainleft {
+    color: #747474;
+    font-size: 18px;
+    font-family: serif;
+    justify-content: left;
+    margin-left: 100px;
+    padding-right: 50px;
+    
+   
+}
+.pmainright {
+    color: #747474;
+    font-size: 16px;
+    font-family: serif;
+    justify-content: right;
+    margin-right: 100px;
+   
+    
+}
+
+
+/* SECTION 2 */
+
+#conteneur { 
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    gap: 15px;
+    padding: 50px;
+
+    
+}
+#conteneur img {
+    margin-left: 50px;
+    padding-top: 40px;
+}
+.patients {
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Work Sans, Arial, sans-serif;
+    background-color: #00ccb1;
+    color: white;
+    letter-spacing: 1px;
+    height: 345px;
+
+}
+.pat1 p {
+    margin: 10px;
+    font-family: serif;
+    
+}
+.patients h1 {
+    text-align: center;
+    font-family: serif;
+}
+.doctors {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #3D83DF;
+    color: white;
+    letter-spacing: 1px;
+    height: 345px;
+}
+.doct1 p {
+    margin: 10px;
+    font-family: serif;
+
+}
+.doctors h1 {
+    text-align: center;
+    font-family: serif;
+}
+.clinics {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #1B2734;
+    color: white;
+    letter-spacing: 1px;
+    height: 345px;
+}
+.clini1 p {
+    margin: 10px;
+    font-family: serif;
+}
+.clinics h1 {
+    text-align: center;
+    font-family: serif;
+}
+.select1 {
+    text-align: center;
+    background-color: #00ccb1;
+    color: #00ccb1;
+    border: none;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.select2 {
+    text-align: center;
+    padding: 50px;
+}
+.select3 {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 50px;
+gap: 20px;
+
+}
+
+/* SECTION 3 */
+
+#spons {
+    display: flex;
+    justify-content: space-around;
+}
+#spons h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #00ccb1;
+    font-family: serif;
+}
+
+.logs1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.logs2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 20px;
+}
+.logs3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logspons img {
+    width: 70px;
+    margin-top: 20px;
+}
+
+/* SECTION 4 */
+
+#competence {
+    background-color: #D0FAF4;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.compright {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.compleft h1 {
+   color: #00ccb1;
+   font-family: serif;
+   
+}
+.compleft {
+    margin-left: 50px;
+}
+.compright h2 {
+    color: #00ccb1;
+}
+.compright p {
+    font-family: serif;
+    letter-spacing: 1px;
+    color: #747474;
+}
+.one {
+    border: 2px solid white;
+    background-color: white;
+    padding-top: 50px;
+
+    
+}
+.two {
+    border: 2px solid white;
+    background-color: white;
+    padding-top: 50px;
+}
+.three {
+    border: 2px solid white;
+    background-color: white;
+    padding-top: 50px;
+    
+}
+
+.four {
+    border: 2px solid white;
+    background-color: white;
+    padding-top: 50px;
+   
+}
+
+#firt1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    gap: 15px;
+    padding-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 260px;
+    width: 250px;
+   
+}
+#second1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    gap: 15px;
+    padding: 50px;
+    height: 460px;
+    width: 250px;
+    
+}
+
+/* SECTION 5 */
+.face {
+    text-align: center;
+    margin-bottom: 5Opx;
+}
+.face h1 {
+    color: #00ccb1;
+    font-family: serif;
+}
+.face p {
+    color: #A5A7A5;
+    font-size: 16px;
+    font-family: serif;
+    
+}
+
+/* SECTION 6 */
+#parcour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 16px;
+    padding-top: 5px;
+}
+.btn:hover {
+    background-color: white;
+    border: 1px solid white;
+}
+.self1 {
+    display: flex;
+    justify-content: space-around;
+    margin-right:16px;
+    gap: 10px;
+}
+.self2 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.self3 {
+    display: flex;
+    justify-content: space-around;
+}
+.self4 {
+    display: flex;
+    justify-content: space-around;
+}
+.self5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#parcour button {
+    font-size: 10px;
+    background-color: #3D83DF;
+    border: none;
+    border-radius: 1px;
+    margin: 2%;
+    color: white;
+}
+#parcour img:hover {
+    background-color: white;
+    color: white;
+    border: 1px solid white;
+}
+/* SECTION 7 */
+
+#rejoin {
+    text-align: center;
+    margin-top: 5%;
+}
+#rejoin h1 {
+    color: #171515;
+}
+#rejoin button {
+    font-size: 12px;
+    background-color: #3D83DF;
+    color: white;
+    border: white;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 4px;
+} 
+
+/* Partie footer */
+
+footer {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color: #235291;
+
+}
